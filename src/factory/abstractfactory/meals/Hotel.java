@@ -17,7 +17,6 @@ public class Hotel {
         meals.add(mealFactory.getMeal("breakfast"));
         meals.add(mealFactory.getMeal("lunch"));
         meals.add(mealFactory.getMeal("dinner"));
-        meals.add(mealFactory.getMeal("breakfast"));
 
         for (Meal m : meals) {
             m.dispayMeal();

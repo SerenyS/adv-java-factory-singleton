@@ -24,6 +24,10 @@ public class CalculatorDriver {
         }
 
         System.out.println("The average BMI calculated in this run is " + CalcTool.averageBMI());
+
+        ThreadSageCalcTool threadSafe = new ThreadSageCalcTool((Client) clientList){
+
+        };
     }
 
     private static List<Client> initClientList() {
